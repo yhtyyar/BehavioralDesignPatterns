@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Итератор |  Iterator">
-      <change afterPath="$PROJECT_DIR$/src/Mediator/EasyCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/MediumCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/easy/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/easy/BankMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/easy/BankMediatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mediator/easy/Mediator.java" afterDir="false" />
+    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Посредник |  Mediator">
+      <change afterPath="$PROJECT_DIR$/src/Memento/EasyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/MediumCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/easy/AccountCaretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/easy/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/easy/BankMementoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/easy/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/medium/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/medium/AccountCareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/medium/AccountMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/medium/BankMementoExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,8 +61,10 @@
     "Application.BankInterpreterExample.executor": "Run",
     "Application.BankIteratorExample.executor": "Run",
     "Application.BankMediatorExample.executor": "Run",
+    "Application.BankMementoExample.executor": "Run",
     "Application.BankTransactionExample.executor": "Run",
     "Application.Iterator.medium.BankIteratorExample.executor": "Run",
+    "Application.Mediator.medium.BankMediatorExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -73,20 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Mediator.medium.BankMediatorExample">
-    <configuration name="BankInterpreterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interpreter.medium.BankInterpreterExample" />
-      <module name="BehavioralDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interpreter.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BankMementoExample">
     <configuration name="BankIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Iterator.easy.BankIteratorExample" />
       <module name="BehavioralDesignPatterns" />
@@ -106,6 +99,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Mediator.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankMementoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memento.medium.BankMementoExample" />
+      <module name="BehavioralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Memento.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankMementoExample" />
         <item itemvalue="Application.Mediator.medium.BankMediatorExample" />
         <item itemvalue="Application.BankMediatorExample" />
         <item itemvalue="Application.Iterator.medium.BankIteratorExample" />
         <item itemvalue="Application.BankIteratorExample" />
-        <item itemvalue="Application.BankInterpreterExample" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722203274315</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Посредник |  Mediator">
+      <option name="closed" value="true" />
+      <created>1722205607661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722205607661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +228,8 @@
     <MESSAGE value="Команда  |  Command" />
     <MESSAGE value="Интерпретатор |  Interpreter" />
     <MESSAGE value="Итератор |  Iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Итератор |  Iterator" />
+    <MESSAGE value="Посредник |  Mediator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Посредник |  Mediator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
