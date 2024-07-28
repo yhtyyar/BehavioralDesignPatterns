@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Цепочка зависимостей  |  Chain of Responsibility">
-      <change afterPath="$PROJECT_DIR$/src/Command/EasyCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/MediumCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/BankCommandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/CommandInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/TransferFundsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/easy/UndoTransferCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/BankCommandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/CheckBalanceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/DepositCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/medium/WithdrawCommand.java" afterDir="false" />
+    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Команда  |  Command">
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/EasyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/BankInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/BankInterpreterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/DepositExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/easy/WithdrawExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/AddExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/BankInterpreterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/NumberExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/SubtractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/medium/VariableExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankCommandExample">
+  <component name="RunManager" selected="Application.BankInterpreterExample">
     <configuration name="BankChainOfResponsibilityExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChainOfResponsibility.medium.BankChainOfResponsibilityExample" />
       <module name="BehavioralDesignPatterns" />
@@ -105,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankInterpreterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interpreter.medium.BankInterpreterExample" />
+      <module name="BehavioralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interpreter.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankTransactionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChainOfResponsibility.easy.BankTransactionExample" />
       <module name="BehavioralDesignPatterns" />
@@ -120,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankInterpreterExample" />
         <item itemvalue="Application.BankCommandExample" />
         <item itemvalue="Application.BankChainOfResponsibilityExample" />
         <item itemvalue="Application.BankTransactionExample" />
@@ -144,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722198663825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Команда  |  Command">
+      <option name="closed" value="true" />
+      <created>1722201374398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722201374398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chain of Responsibility  | Цепочка зависимостей" />
     <MESSAGE value="Цепочка зависимостей  |  Chain of Responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Цепочка зависимостей  |  Chain of Responsibility" />
+    <MESSAGE value="Команда  |  Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Команда  |  Command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
