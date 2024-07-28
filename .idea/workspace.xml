@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="" />
+    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/EasyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/EasyCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/MediumCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/MediumCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/BankTransactionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/BankTransactionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/CashierHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/CashierHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/DirectorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/DirectorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/ManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/ManagerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/TransactionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/easy/TransactionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/AbstractTransactionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/AbstractTransactionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/BalanceCheckHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/BalanceCheckHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/BankChainOfResponsibilityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/BankChainOfResponsibilityExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/ExecuteTransactionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/ExecuteTransactionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/LimitCheckHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/LimitCheckHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/TransactionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/medium/TransactionHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yhtyyar"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yhtyyar/BehavioralDesignPatterns.git",
+    "accountId": "90e5fd84-69e2-4b9a-acc4-654f0eff4594"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jt8GTWa3yxlTdCihwLQToOZ3BP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,19 +62,55 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankChainOfResponsibilityExample.executor": "Run",
+    "Application.BankTransactionExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/BehavioralDesignPatterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/BehavioralDesignPatterns/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.38" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.38" />
-      </set>
-    </attachedChunks>
+  <component name="RunManager" selected="Application.BankChainOfResponsibilityExample">
+    <configuration name="BankChainOfResponsibilityExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsibility.medium.BankChainOfResponsibilityExample" />
+      <module name="BehavioralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChainOfResponsibility.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTransactionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsibility.easy.BankTransactionExample" />
+      <module name="BehavioralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChainOfResponsibility.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankChainOfResponsibilityExample" />
+        <item itemvalue="Application.BankTransactionExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,9 +120,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722194920087</updated>
-      <workItem from="1722194921164" duration="2000" />
+      <workItem from="1722194921164" duration="2796000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
