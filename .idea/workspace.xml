@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Посетитель  |  Visitor">
+    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Стратегия  |  Strategy">
+      <change afterPath="$PROJECT_DIR$/src/State/EasyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/easy/AccountState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/State/easy/ActiveState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yhtyyar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yhtyyar&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yhtyyar/BehavioralDesignPatterns.git",
-    "accountId": "90e5fd84-69e2-4b9a-acc4-654f0eff4594"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yhtyyar/BehavioralDesignPatterns.git&quot;,
+    &quot;accountId&quot;: &quot;90e5fd84-69e2-4b9a-acc4-654f0eff4594&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,34 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankChainOfResponsibilityExample.executor": "Run",
-    "Application.BankCommandExample.executor": "Run",
-    "Application.BankInterpreterExample.executor": "Run",
-    "Application.BankIteratorExample.executor": "Run",
-    "Application.BankMediatorExample.executor": "Run",
-    "Application.BankMementoExample.executor": "Run",
-    "Application.BankObserverExample.executor": "Run",
-    "Application.BankTransactionExample.executor": "Run",
-    "Application.BankVisitorExample.executor": "Run",
-    "Application.Iterator.medium.BankIteratorExample.executor": "Run",
-    "Application.Mediator.medium.BankMediatorExample.executor": "Run",
-    "Application.Visitor.medium.BankVisitorExample.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/BehavioralDesignPatterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/BehavioralDesignPatterns/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankChainOfResponsibilityExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankCommandExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankInterpreterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankIteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankMediatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankMementoExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankObserverExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankTransactionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankVisitorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Iterator.medium.BankIteratorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mediator.medium.BankMediatorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Visitor.medium.BankVisitorExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/BehavioralDesignPatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/BehavioralDesignPatterns/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Visitor.medium.BankVisitorExample">
     <configuration name="BankMementoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Memento.medium.BankMementoExample" />
@@ -222,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722208886220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Стратегия  |  Strategy">
+      <option name="closed" value="true" />
+      <created>1722264310924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722264310924</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +260,8 @@
     <MESSAGE value="Хранитель |  Memento" />
     <MESSAGE value="Наблюдатель |  Observer" />
     <MESSAGE value="Посетитель  |  Visitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Посетитель  |  Visitor" />
+    <MESSAGE value="Стратегия  |  Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стратегия  |  Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
