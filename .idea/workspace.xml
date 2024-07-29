@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Наблюдатель |  Observer">
-      <change afterPath="$PROJECT_DIR$/src/Visitor/EasyCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/BankVisitorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/easy/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/medium/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/medium/AccountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/medium/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/medium/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/medium/TaxCalculator.java" afterDir="false" />
+    <list default="true" id="6d7271fe-6122-4662-9f80-ee7613e656ca" name="Changes" comment="Посетитель  |  Visitor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +57,7 @@
     "Application.BankVisitorExample.executor": "Run",
     "Application.Iterator.medium.BankIteratorExample.executor": "Run",
     "Application.Mediator.medium.BankMediatorExample.executor": "Run",
+    "Application.Visitor.medium.BankVisitorExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -225,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722207877235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Посетитель  |  Visitor">
+      <option name="closed" value="true" />
+      <created>1722208886220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722208886220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +248,8 @@
     <MESSAGE value="Посредник |  Mediator" />
     <MESSAGE value="Хранитель |  Memento" />
     <MESSAGE value="Наблюдатель |  Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наблюдатель |  Observer" />
+    <MESSAGE value="Посетитель  |  Visitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Посетитель  |  Visitor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
